@@ -1,0 +1,98 @@
+- Data: 18/05/2023
+
+- Projeto: 
+    - Converting videos to audio reducing bitrate.
+    - Extracting transcription from this audio using Whisper (OpenAI).
+    - Generated summaries from this transcripts using GPT-3 or GPT-4 (OpenAI).
+
+- Referências/Fontes:
+    - Rocketseat: https://www.youtube.com/watch?v=Znz2QXpJTXQ&t=427s
+    - Implementação em Python: 
+    - Web Assembly FFmpeg: https://dev.to/kcdchennai/video-processing-in-browser-using-ffmpegwasm-and-solidjs-1jl3
+    - Artigo mais explicativo do que programando: https://generativeai.pub/how-to-generate-a-summary-of-a-youtube-video-using-gpt-4-165fb455558e
+    - Artigo em inglês explicando sobre ChatGPT Promptings para sumários: https://tactiq.io/learn/how-to-create-meetings-summaries-with-openai-gpt-3
+
+- Objetivo: Criar resumos de vídeos em geral, a ideia surge para poder automatizar 
+a geração desses resumos pois é o que eu faço na mão durante as vídeos aulas de
+estudos em geral. Isso irá possibilitar melhorar as documentações e ganhar tempo 
+em alguns casos pois não vai ser mais necessário ver o vídeo por completo para 
+saber quais assuntos ele aborda, bastando assim gerar esses resumos com as 
+transcrições e verificar com antecedência se vale a pena ou não ver o vídeo em 
+questão. Essa ferramenta pode também ser útil para criadores de conteúdo, pois
+a mesma pode gerar informações complementares ao vídeo, reduzindo esforços na
+pós-produção.
+
+
+- Tecnologias:
+    - Video to Audio convertion: Ferramenta de linha de comando `FFmpeg`;
+        - Obs: É Possivel também executa-la no navegador utilizando web assembly;
+
+    - Transcription Extractor: Whisper API;
+
+    - Summarizing Generator: GPT-3 or GPT-4 API;
+
+
+- Fluxograma OverView:
+                                    
+    [MP4/MKV]--{ ffmpeg }-->[MP3]--{ Prompting }-->[Whisper]--{ Acurate Transcription + Prompting }-->[GPT]
+
+
+- Whisper Prompting: Contextualiza sobre o que é o vídeo afim de gerar 
+transcrições mais acuradas e corretas, pois é mais complicado gerar 
+transcrições de vídeos técnicos devido as palavras chaves não ser muito 
+comum ou se parecerem com outras palavras fora do contexto do mundo da 
+tecnologia.
+
+    - Exemplo: Esse audio é da video aula "264" da playlist "Maratona Java" do 
+    canal no youtube "Devdojo", os tópicos abordados neste vídeo é sobre "tal tal"...
+
+
+- GPT Prompting: Contextualiza sobre o que é a transcrição indicando sobre qual 
+canal do youtube é, qual playlist se tiver, e quais assuntos/topicos são abordados 
+no vídeo, e no fim pede quais informações queremos no sumário para complementar as 
+documentações dos estudos. 
+
+    - Exemplo: Essa trasncrição é sobre a vídeo aula "264" da playlist "Maratona 
+    Java" do canal no youtube "Devdojo" com foco em desenvolvimento backend com 
+    Java, os assuntos abordados neste vídeo é sobre "tal tal tal" escreva um resumo 
+    sobre cada classe ou conceito dito neste vídeo em markdown com informações 
+    complementares que ficou faltante ou não ficou muito claro, com o máximo de 
+    exemplos de códigos utilizando boas práticas de programação Java.
+
+
+- ChatGPT Flags:
+
+    - Para que serve a classe `Classe-X` e quais as aplicações e utilidades no 
+    Java? - Class
+
+    - O que é e para que serve um `Interface-X` no java? quais as aplicações e 
+    utilidades? - Interface
+
+	- Quais as classes que implementam ele, e quais os propósitos delas?
+
+	- Vantagens e Desvantagens em comum para as classes que implementam a interface 
+    `X` no Java
+
+		- Vantagens e Desvantagens em comum para as classes que implementam a 
+        interface `X` no Java ou seja, quais as características em comum relacionado 
+        a vantagens e Desvantagens no uso de cada uma dessas implementações?
+
+	- Diferenças de uso para cada classe que implementa a interface `X` no java
+
+	- Pontos importantes e atenções em comum que merecem destaque para as classes 
+    que implementam a interface `X` no Java 
+
+
+    - Vantagens e desvantagens de se utilizar `Classe-X` no Java - Class
+
+    - Principais pontos importantes e atenções que merecem destaque quando esta 
+    trabalhando com `Classe-X` no Java - Class
+
+
+    - Essas vantagens e desvantagens são em comum para todas as classes que 
+    implementam `X`? ou existe algum comportamento desses mencionados por você 
+    que são incomuns ou diferentes entre sí, ou algo adicional para alguma classe 
+    que implementa `X` em específico? se sim, qual é a classe cujo comportamento 
+    é incomum ou diferente, ou que apresenta algo adicional em relação as outras 
+    classes que implementam `X`, e qual o propósito delas ou a diferença ou 
+    acréscimo de funcionalidade?

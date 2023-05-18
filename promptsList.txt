@@ -4,4 +4,38 @@
     relacionado a programação e desenvolvimento backend com o Java, 
     módulo sobre Threads, escreva um resumo para cada tópico abordado,
     classe ou interface dita no vídeo em markdown, com o máximo de exemplos 
-    de implementações e informações complementares faltantes Transcript: {transcribe}
+    de implementações e informações complementares faltantes Transcript: 
+    {transcribe}
+
+- Prompt02:
+    De acordo com o seguinte transcript da vídeo aula 
+    "221 - Threads pt 02 - Estados das threads" do canal do youtube "DevDojo"
+    relacionado a programação e desenvolvimento backend com o Java, 
+    módulo sobre Threads, escreva um resumo para cada tópico abordado,
+    conceito, classe ou interface dita no vídeo no formato markdown, com o 
+    máximo de exemplos de implementações e informações complementares faltantes 
+    possível Transcript: 
+    {transcribe}
+
+- Prompt03:
+    De acordo com o seguinte transcript da vídeo aula 
+    "221 - Threads pt 02 - Estados das threads" do canal do youtube "DevDojo"
+    relacionado a programação e desenvolvimento backend com o Java, 
+    módulo sobre Threads, escreva um resumo para cada tópico abordado,
+    conceito, classe ou interface dita no vídeo no formato markdown, com o 
+    máximo de exemplos de implementações e informações complementares faltantes 
+    possível e em casos de informações incorretas, separe-as em uma seção 
+    "Ressalvas sobre informações inconsistentes: " Transcript:
+    {transcribe}
+
+- prompt04:
+    De acordo com o seguinte transcript da vídeo aula 
+    "221 - Threads pt 02 - Estados das threads" do canal do youtube "DevDojo" 
+    relacionado a programação e desenvolvimento backend com o Java, 
+    módulo sobre Threads, escreva em primeira pessoa um resumo para cada 
+    tópico abordado, conceito, classe ou interface dita no vídeo no formato 
+    markdown, com o máximo de exemplos de implementações e informações 
+    complementares faltantes possível e em casos de informações incorretas, 
+    separe-as em uma seção "Ressalvas sobre informações inconsistentes: " 
+    Transcript:
+    {transcribe}

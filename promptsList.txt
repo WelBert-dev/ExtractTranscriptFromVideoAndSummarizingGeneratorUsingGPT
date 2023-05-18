@@ -1,0 +1,7 @@
+- Prompt01: 
+    De acordo com o seguinte transcript da vídeo aula 
+    "220 - Threads pt 01 - Introduction" do canal do youtube "DevDojo"
+    relacionado a programação e desenvolvimento backend com o Java, 
+    módulo sobre Threads, escreva um resumo para cada tópico abordado,
+    classe ou interface dita no vídeo em markdown, com o máximo de exemplos 
+    de implementações e informações complementares faltantes Transcript: {transcribe}

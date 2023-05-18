@@ -111,7 +111,7 @@ documentações dos estudos.
 
 - Contextualizando o transcript para o GPT-3.5-turbo:
 
-    De acordo com o seguinte transcrib da vídeo aula 
+    De acordo com o seguinte transcript da vídeo aula 
     "220 - Threads pt 01 - Introduction" do canal do youtube "DevDojo"
     relacionado a programação e desenvolvimento backend com o Java, 
     módulo sobre Threads, escreva um resumo para cada tópico abordado,

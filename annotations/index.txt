@@ -28,6 +28,7 @@ pós-produção.
         - Obs: É Possivel também executa-la no navegador utilizando web assembly;
 
     - Transcription Extractor: Whisper API;
+        - https://platform.openai.com/docs/api-reference/introduction
 
     - Summarizing Generator: GPT-3 or GPT-4 API;
 

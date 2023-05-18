@@ -11,6 +11,10 @@
     - Web Assembly FFmpeg: https://dev.to/kcdchennai/video-processing-in-browser-using-ffmpegwasm-and-solidjs-1jl3
     - Artigo mais explicativo do que programando: https://generativeai.pub/how-to-generate-a-summary-of-a-youtube-video-using-gpt-4-165fb455558e
     - Artigo em inglês explicando sobre ChatGPT Promptings para sumários: https://tactiq.io/learn/how-to-create-meetings-summaries-with-openai-gpt-3
+    - Criando assistente de voz com whisper e GPT-3.5 Turbo (Python no google colab): https://www.youtube.com/watch?v=KcCotHKryO4
+    - Usando o whisper para portugues brasil (especializado) github: https://github.com/piegu/language-models/blob/master/Whisper_Medium_Portuguese_GPU.ipynb
+    - Requisições na API do GPT-3.5 turbo (prompt course) google colab: https://github.com/piegu/language-models/blob/master/chatgpt/deeplearning_ai_chatgpt_prompt_engineering_course/l2-guidelines.ipynb
+    - Whisper criando programa e executando em command line: https://meiobit.com/460963/whisper-como-usar-ia-para-transcrever-e-traduzir-audios/
 
 - Objetivo: Criar resumos de vídeos em geral, a ideia surge para poder automatizar 
 a geração desses resumos pois é o que eu faço na mão durante as vídeos aulas de
@@ -26,9 +30,15 @@ pós-produção.
 - Tecnologias:
     - Video to Audio convertion: Ferramenta de linha de comando `FFmpeg`;
         - Obs: É Possivel também executa-la no navegador utilizando web assembly;
+        $ ffmpeg -i arquivo.mp3 -b:a 30k novo_arquivo.mp3 // diminui a taxa de bitrate
+        $ ffmpeg -i video.mp4 -ar 16000 -ac 1 -c:a pcm_s16le audio.wav // converte video em audio
+
 
     - Transcription Extractor: Whisper API;
         - https://platform.openai.com/docs/api-reference/introduction
+        - Audio transcriptor: https://platform.openai.com/docs/api-reference/audio/create
+        $ whisper audio.flac audio.mp3 audio.wav --model small --language Portuguese
+       
 
     - Summarizing Generator: GPT-3 or GPT-4 API;
 
@@ -97,3 +107,13 @@ documentações dos estudos.
     é incomum ou diferente, ou que apresenta algo adicional em relação as outras 
     classes que implementam `X`, e qual o propósito delas ou a diferença ou 
     acréscimo de funcionalidade?
+
+
+- Contextualizando o transcript para o GPT-3.5-turbo:
+
+    De acordo com o seguinte transcrib da vídeo aula 
+    "220 - Threads pt 01 - Introduction" do canal do youtube "DevDojo"
+    relacionado a programação e desenvolvimento backend com o Java, 
+    módulo sobre Threads, escreva um resumo para cada tópico abordado,
+    classe ou interface dita no vídeo em markdown, com o máximo de exemplos 
+    de implementações e informações complementares faltantes Transcript: {transcribe}

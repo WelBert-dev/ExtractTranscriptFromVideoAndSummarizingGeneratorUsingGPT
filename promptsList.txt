@@ -39,3 +39,16 @@
     separe-as em uma seção "Ressalvas sobre informações inconsistentes: " 
     Transcript:
     {transcribe}
+
+- prompt05_desbloqueandoAlgoritmoDoTwitter_FabioAkita : 
+    De acordo com o seguinte transcript do capitulo 01 
+    (00:02:51 - CAP 2 - Interpretando Errado: Não Acredite em Blog Posts) 
+    do vídeo "Desbloqueando o 'Algoritmo' do Twitter - Introdução a Grafos" 
+    do canal do youtube "Fabio Akita" relacionado a programação, desenvolvimento 
+    de software e tecnologia em geral, escreva em primeira pessoa um resumo para 
+    cada tópico abordado, conceito, tecnologia ou tipo de algoritmo dito no vídeo, 
+    em formato markdown, com o máximo de exemplos de implementações e informações 
+    complementares faltantes possível e em casos de informações incorretas, 
+    separe-as em uma seção "Ressalvas sobre informações inconsistentes: " 
+Transcript:
+    {transcrib}

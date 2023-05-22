@@ -52,3 +52,8 @@
     separe-as em uma seção "Ressalvas sobre informações inconsistentes: " 
 Transcript:
     {transcrib}
+
+- prompt06_organizacao_e_arquitetura_de_computadores_pt01:
+    De acordo com o seguinte transcript da 02 vídeo aula "Aula 2 de Arquitetura e Organização de Computadores" da pĺaylist "Arquitetura e Organização de Computadores" do canal do youtube "Professor Deiverson Ariel da Silva - IFSC" relacionado aos componentes e integrações entre eles (hardware) e quais suas funcionalidades em um computador, e softwares que os controlam (sistemas operacionais, drivers, daemons, firmwares, módulos e etc) no contexto de "Análise e desenvolvimento de Sistemas", escreva em primeira pessoa um resumo para cada tópico abordado, conceito, tecnologia, componente ou tipo de algoritmo dito no vídeo, em formato markdown, com o máximo de exemplos, implementações e informações complementares faltantes possível e em casos de informações incorretas, separe-as em uma seção "Ressalvas sobre informações inconsistentes: " 
+Transcript:
+    {transcrib}

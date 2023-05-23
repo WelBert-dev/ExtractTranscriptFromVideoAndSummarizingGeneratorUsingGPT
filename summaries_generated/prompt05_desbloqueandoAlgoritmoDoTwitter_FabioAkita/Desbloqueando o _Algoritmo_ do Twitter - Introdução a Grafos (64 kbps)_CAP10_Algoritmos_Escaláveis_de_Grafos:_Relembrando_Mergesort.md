@@ -1,0 +1,13 @@
+# Resumo do Capítulo 10 - "Algoritmos Escaláveis de Grafos: Relembrando Mergesort"
+
+## Importância dos Algoritmos de Ordenação
+No vídeo, é mencionado que muitas vezes os algoritmos de ordenação são ensinados sem explicar o motivo de existirem diferentes tipos. Um exemplo dado é o mergesort, criado por von Neumann para lidar com listas de dados que não cabiam na memória RAM da época. O mergesort utiliza a técnica de dividir e conquistar, percorrendo os elementos da lista e gravando-os ordenados em uma segunda lista, sem estourar a memória RAM. Essa explicação contextualiza a importância dos algoritmos de ordenação e sua relação com problemas específicos.
+
+## Desafios de Processamento de Grafos Distribuídos
+Em 2012, ainda não existia um equivalente do mergesort para lidar com grafos que não cabem em memória e precisam ser divididos em partes armazenadas em sistemas distribuídos, como o HDFS (Hadoop Distributed File System). O processamento de grafos em ambientes distribuídos apresenta desafios, como o gargalo na materialização dos vizinhos dos vértices, que requer um enorme shuffling de dados (reorganização dos dados) de diversos servidores para formar o grafo necessário para o processamento.
+
+## Algoritmo OnePass PPR (Personalized PageRank)
+Para superar as limitações do processamento de grafos distribuídos, os autores de um paper referenciado no vídeo propuseram uma modificação no algoritmo de PageRank chamada OnePass PPR. O PageRank é amplamente utilizado para calcular a similaridade entre nós em um grafo, mas é um algoritmo iterativo que requer frequentes reorganizações de dados (data shuffling). O OnePass PPR reduz o número de iterações e minimiza o reembaralhamento dos dados a cada iteração. O algoritmo utiliza particionamento de dados com base nos IDs dos usuários, combinando pontuações locais e globais, e também faz uso de técnicas de caching para evitar recomputação de resultados intermediários.
+
+## Framework RealGraph e Castle Very
+O vídeo menciona o framework RealGraph, que é uma solução geral composta pelos grafos de seguidores e grafos de interação induzidos a partir de logs de comportamento. O Castle Very é uma parte dessa solução, fornecendo acesso aos dados dos grafos no ambiente Radoop. O RealGraph é construído a partir de vários pipelines de funcionalidades, que extraem, limpam, transformam e combinam os dados dos logs de comportamento. O RealGraph é armazenado no HDFS e é possível encontrar referências a esse nome no código do repositório disponibilizado.

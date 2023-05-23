@@ -1,4 +1,4 @@
-# Resumo do vídeo "Desbloqueando o 'Algoritmo' do Twitter - Introdução a Grafos"
+# Resumo do Capítulo 03 - "Derrubando o Meme: Pessoas Idiotas"
 
 ## Ressalvas sobre informações inconsistentes:
 Antes de abordar os tópicos específicos discutidos no vídeo, é importante ressaltar que o autor do vídeo expressa opiniões pessoais sobre Elon Musk e faz críticas ao comportamento das pessoas em relação ao código do Twitter. Além disso, algumas informações fornecidas no vídeo podem ser especulativas e não são baseadas em fatos concretos. Portanto, é necessário separar as opiniões pessoais do autor das informações técnicas apresentadas.

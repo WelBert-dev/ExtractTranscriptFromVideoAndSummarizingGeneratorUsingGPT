@@ -1,4 +1,4 @@
-# Resumo do vídeo "Desbloqueando o 'Algoritmo' do Twitter - Introdução a Grafos"
+# Resumo do Capítulo 02 - "Interpretando Errado: Não Acredite em Blog Posts"
 
 ## Ressalvas sobre informações inconsistentes:
 Antes de abordar os tópicos específicos discutidos no vídeo, é importante ressaltar que o conteúdo apresentado levanta dúvidas sobre a veracidade das informações fornecidas nos blogs mencionados. O autor do vídeo menciona que os códigos e documentações fornecidos pelos blogs são incompletos e não é possível afirmar com certeza se os parâmetros e pesos mencionados são reais ou se representam exatamente o que é executado nos servidores do Twitter. Portanto, é necessário ter cautela ao fazer afirmações baseadas nessas informações.

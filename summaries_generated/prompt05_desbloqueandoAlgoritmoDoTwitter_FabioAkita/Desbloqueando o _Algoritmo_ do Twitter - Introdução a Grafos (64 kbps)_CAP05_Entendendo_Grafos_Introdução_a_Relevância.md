@@ -1,5 +1,4 @@
-*Resumo dos tópicos abordados no vídeo "Desbloqueando o 'Algoritmo' do Twitter - Introdução a Grafos":*
-## Resumo do Capítulo 05 - "Entendendo Grafos. Introdução a Relevância"
+# Resumo do Capítulo 05 - "Entendendo Grafos. Introdução a Relevância"
 
 **1. Introdução ao conceito de Grafos:**
 

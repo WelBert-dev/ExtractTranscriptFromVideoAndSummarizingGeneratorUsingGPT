@@ -1,4 +1,4 @@
-## Resumo do Capítulo 04 - "Objetivos do Video: derrubar os Clones. Código de Verdade"
+# Resumo do Capítulo 04 - "Objetivos do Video: derrubar os Clones. Código de Verdade"
 
 Neste capítulo, o objetivo é desmistificar a diferença entre o código de um curso/tutorial e o código de produção de uma empresa real. O autor destaca que a diferença entre esses tipos de código é significativa, especialmente para iniciantes que nunca trabalharam em projetos grandes.
 

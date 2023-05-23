@@ -1,0 +1,17 @@
+## Resumo do Capítulo 04 - "Objetivos do Video: derrubar os Clones. Código de Verdade"
+
+Neste capítulo, o objetivo é desmistificar a diferença entre o código de um curso/tutorial e o código de produção de uma empresa real. O autor destaca que a diferença entre esses tipos de código é significativa, especialmente para iniciantes que nunca trabalharam em projetos grandes.
+
+O autor menciona que o código de um curso ou tutorial é simplificado e não reflete a complexidade e o tamanho dos projetos de produção reais. Um curso pode ensinar a construir algo simples, como uma casinha de rato com uma caixa de sapatos, mas projetos reais são como a construção de um arranha-céu no deserto, sem uma receita pronta.
+
+Para ilustrar essa diferença, o autor escolhe um projeto aleatório no GitHub chamado "Twitter Clone", que é feito em Next.js, TypeScript, Firebase e Tailwind CSS. Ele menciona que esse projeto pode parecer grande para um iniciante, com 158 arquivos e mais de 32 mil linhas de código, mas ele ressalta que isso é apenas uma fração do código real do Twitter. O repositório do Twitter possui mais de 4.600 arquivos e mais de 330 mil linhas de código, sendo 10 vezes maior do que o projeto do clone.
+
+O autor destaca que o projeto do clone do Twitter é apenas o front-end e aborda operações básicas, como postar tweets, dar likes, retweets, replies, adicionar bookmarks, adicionar imagens, seguir e deixar de seguir outros usuários. No entanto, ele ressalta que o clone não é capaz de lidar com a escala e a complexidade do Twitter em produção, especialmente quando se trata de buscar tweets recomendados em tempo real.
+
+O autor enfatiza que os clones existentes no GitHub, como clones do Twitter, Instagram, Pinterest, entre outros, são exercícios para iniciantes praticarem suas habilidades de front-end e criar interfaces semelhantes às já existentes. Esses clones não chegam nem perto das versões reais e não são capazes de lidar com o tráfego em larga escala que os produtos originais enfrentam.
+
+O autor ressalta que não há problema em praticar e aprender com esses clones, pois todos precisam começar do zero. No entanto, ele destaca que as soluções para projetos de larga escala são completamente diferentes do que é ensinado em cursos e tutoriais. Projetos em empresas grandes, como Mercado Livre, iFood, Nubank, Facebook, Google, Apple, envolvem milhões e até bilhões de pessoas, e as soluções para lidar com essa escala são complexas e personalizadas para cada caso.
+
+O autor afirma que não há cursos que abranjam esses casos de larga escala, porque a maioria dos desenvolvedores que criam cursos nunca teve que lidar com esse problema. Ele ressalta que a falta de acesso a código de produção real de empresas é uma das razões pelas quais o código liberado pelo Twitter é relevante, pois é uma oportunidade para analisar e entender como projetos de grande escala são construídos.
+
+Por fim, o autor enfatiza a importância da experiência prática em projetos de larga escala e aconselha a não confiar em programadores que não tenham tido esse tipo de experiência. Ele menciona que muitos programadores têm apenas uma visão limitada e acham que o mundo do desenvolvimento de software é pequeno, quando na verdade é muito maior e mais complexo. Ele compara essa diferença de perspectiva a subir no topo do Burj Khalifa, o arranha-céu mais alto do mundo, afirmando que apenas quem já esteve lá em cima pode realmente compreender a diferença.

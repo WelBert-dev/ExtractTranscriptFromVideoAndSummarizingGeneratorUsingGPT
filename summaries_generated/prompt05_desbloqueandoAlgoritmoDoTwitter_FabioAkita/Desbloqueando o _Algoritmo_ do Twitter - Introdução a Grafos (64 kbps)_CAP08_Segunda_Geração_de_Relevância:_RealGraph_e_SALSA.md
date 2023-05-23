@@ -1,0 +1,10 @@
+# Resumo do Capítulo 08 - "Segunda Geração de Relevância: RealGraph e SALSA"
+
+### Salsa (Algoritmo de Random Walk)
+O Salsa é um algoritmo de random walk, uma evolução da ideia do algoritmo HITS para análise de links em grafos. Em vez de navegar por todos os vértices e pontuar o grafo inteiro, o Salsa utiliza a ideia de "andarilho aleatório". É semelhante a fazer uma pesquisa de opinião pública, onde é possível obter informações sobre uma população fazendo uma amostragem. No contexto do grafo, não é necessário percorrer o grafo inteiro, é possível escolher um grupo aleatório, economizando tempo de processamento e obtendo resultados dentro de margens de erro estatisticamente aceitáveis.
+
+### Grafo Bipartido
+Para otimizar ainda mais o Salsa, os nós e vértices são reorganizados em um grafo bipartido. O grafo é dividido em dois conjuntos distintos: hubs e autoridades. Os hubs são páginas que possuem links para outras páginas, enquanto as autoridades são páginas que recebem os links dos hubs. Essa separação ajuda a distinguir os papéis dos hubs e autoridades no algoritmo.
+
+### Recomendação de Usuários com Salsa
+O Twitter desenvolveu um algoritmo de recomendação baseado no Salsa, que é um algoritmo de random walk da mesma família do HITS, originalmente utilizado para o ranking de páginas da web. O algoritmo constrói um grafo bipartido com uma coleção de sites de interesse, dividindo-os em hubs e autoridades. Cada passo no Salsa envolve navegar por duas arestas, uma para frente e outra para trás. O algoritmo realiza múltiplas iterações do Salsa para atribuir pontuações aos vértices. Os vértices do lado direito (autoridades) são ranqueados com base nessas pontuações e tratados como recomendações de usuários. Os vértices do lado esquerdo (hubs) também são ranqueados e interpretados como similaridade entre usuários. Esse resultado é apresentado como recomendações de usuários com interesses similares.

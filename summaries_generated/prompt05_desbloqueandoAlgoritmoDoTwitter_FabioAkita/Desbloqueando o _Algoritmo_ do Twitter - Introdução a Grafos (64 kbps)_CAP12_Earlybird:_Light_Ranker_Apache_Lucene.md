@@ -1,0 +1,7 @@
+# Resumo do Capítulo 12 - "Earlybird: Light Ranker. Apache Lucene"
+
+## Blander: Front-end Change Utilizando Apache Lucene
+No vídeo, é mencionado que o Blander é um front-end change escrito em Java e construído em cima do Net, que é uma plataforma semelhante ao Node.js para Java. O Blander utiliza o Apache Lucene como motor de busca. O Lucene é um projeto em Java amplamente utilizado para indexação e busca de informações. Ele é conhecido por oferecer recursos avançados de pesquisa, como busca de texto completo, correção ortográfica e autocompletar. O Elastic, também conhecido como Elasticsearch, é um produto popular construído em cima do Lucene, e o Solr é outra solução de busca relacionada desenvolvida pela Apache. O Lucene é amplamente utilizado em sites que possuem campos de pesquisa, garantindo resultados eficientes e precisos.
+
+## Earlybird: Sistema de Pesquisa em Tempo Real
+Além do Blander, o vídeo menciona a existência de outro sistema relacionado à pesquisa em tempo real chamado Earlybird. Earlybird é um termo que aparece no código liberado recentemente pelo Twitter. Embora não sejam fornecidos muitos detalhes sobre o Earlybird no vídeo, é mencionado que ele é um sistema diferente do motor de recomendação e está relacionado à parte de pesquisa em tempo real do Twitter. Infelizmente, não são fornecidas informações adicionais sobre a funcionalidade ou a tecnologia específica por trás do Earlybird.

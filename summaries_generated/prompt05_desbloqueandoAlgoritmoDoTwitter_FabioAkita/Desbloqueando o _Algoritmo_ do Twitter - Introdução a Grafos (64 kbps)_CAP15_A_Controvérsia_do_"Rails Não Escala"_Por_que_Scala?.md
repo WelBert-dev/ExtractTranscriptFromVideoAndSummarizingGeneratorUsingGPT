@@ -1,0 +1,9 @@
+# Resumo do Capítulo 15 - "A Controvérsia do "Rails Não Escala". Por que Scala?"
+
+1. **História do Twitter e a migração para Scala**: O vídeo aborda a história do Twitter e sua decisão de migrar de Ruby on Rails para Scala. O Twitter enfrentava desafios de escala e volume de dados, e a migração para Scala permitiu lidar com esses problemas de forma mais eficiente. A linguagem Scala, lançada em 2001 por Martin Odersky, oferecia recursos modernos e rodava na JVM, o que proporcionava um ecossistema maduro.
+
+2. **Volume de dados e limitações das tecnologias existentes**: O Twitter lidava com um enorme volume de dados, e as tecnologias disponíveis na época não atendiam às necessidades da plataforma. Tecnologias como Ruby, Python, PHP e JavaScript não escalavam bem para os volumes de dados do Twitter. Além disso, alternativas como bancos de dados de grafos e componentes como Kafka e Cassandra também eram relativamente novas na época.
+
+3. **A escolha da linguagem Scala**: A linguagem Scala foi escolhida como a opção mais moderna e adequada para lidar com os desafios do Twitter. Scala combinava os melhores conceitos da programação orientada a objetos e funcional, oferecendo recursos como Higher Order Functions, tipos opcionais e Pattern Matching. Rodando na JVM, Scala permitia criar aplicações com menos dor de cabeça do que se fossem implementadas em C++.
+
+4. **Componentes e projetos desenvolvidos em Scala**: O Twitter utilizou a linguagem Scala para desenvolver componentes e projetos como o Starling (um mini Kafka), o Real Graph e o GraphJet, antes mesmo da existência de bancos de dados de grafos maduros. Também foram utilizadas tecnologias do ecossistema Java, como o Hadoop. A decisão de utilizar Scala foi considerada acertada em retrospecto, considerando o desenvolvimento do ecossistema atual de Big Data, Data Science, Machine Learning e inteligência artificial.

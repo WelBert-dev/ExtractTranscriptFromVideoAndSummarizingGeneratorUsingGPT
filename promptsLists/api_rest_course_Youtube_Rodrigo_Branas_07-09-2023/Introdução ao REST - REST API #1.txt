@@ -1,0 +1,10 @@
+- prompt01:
+    
+De acordo com o seguinte transcript da vídeo aula "Introdução ao REST - REST API #1" do canal do youtube "Rodrigo Branas" relacionado a programação e desenvolvimento backend avançado com uso de boas práticas de programação DDD (Domain Driven Design), Ports & Adapters Architecture, Arquitetura Hexagonal, Design Patterns, TDD módulo sobre REST API, escreva em primeira pessoa um resumo para cada tópico abordado, conceito, paradigma, artigo, autores, teses, ideiais ditas no vídeo no formato markdown, com o máximo de exemplos de implementações e informações complementares faltantes possível e em casos de informações incorretas, separe-as em uma seção "Ressalvas sobre informações inconsistentes: " Transcript:
+{transcribe}
+
+
+- prompt02:
+    
+De acordo com o seguinte transcript da vídeo aula "Introdução ao REST - REST API #1" do canal do youtube "Rodrigo Branas" relacionado a programação e desenvolvimento backend avançado com uso de boas práticas de programação de acordo com os fundamentos, conceitos, métodos, códigos de retorno, segurança, monitoramento, performance e até mesmo alternativas ao REST. módulo sobre REST API, escreva em primeira pessoa um resumo para cada tópico abordado, conceito, paradigma, artigo, autores, teses, ideiais ditas no vídeo no formato markdown, com o máximo de exemplos de implementações e informações complementares faltantes possível e em casos de informações incorretas, separe-as em uma seção "Ressalvas sobre informações inconsistentes: " Transcript:
+{transcribe}

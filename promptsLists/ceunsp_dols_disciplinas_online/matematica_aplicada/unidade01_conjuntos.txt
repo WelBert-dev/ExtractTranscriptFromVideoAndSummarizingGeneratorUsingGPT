@@ -1,0 +1,4 @@
+- prompt01:
+    
+De acordo com o seguinte transcript da vídeo aula assincrona EAD (DOL Ciclo 01 - Unidade 01) da faculdade CEUNSP de Análise e Desenvolvimento de Sistemas (Engenharia de Software) na disciplina de Matemática Aplicada, aula sobre "Conjuntos - Intervalos reais - Intervalo Aberto", escreva em primeira pessoa um resumo para cada tópico abordado, fundamento, fórmulas matemáticas, conceito, paradigma, artigo, referências, ideiais ditas no vídeo no formato markdown, com o máximo de exemplos e informações complementares faltantes possível e em casos de informações incorretas, separe-as em uma seção "Ressalvas sobre informações inconsistentes: " Transcript:
+{transcribe}
